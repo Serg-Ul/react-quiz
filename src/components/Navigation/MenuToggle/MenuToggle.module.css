@@ -1,0 +1,43 @@
+.MenuToggle {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    z-index: 100;
+    cursor: pointer;
+    transition: left, 0.5s ease-in-out;
+    font-size: 20px;
+    color: white;
+}
+
+/*.MenuToggle span, .MenuToggle span:before{*/
+/*    content: '';*/
+/*    position: relative;*/
+/*    display: block;*/
+/*    height: 2px;*/
+/*    background-color: white;*/
+/*}*/
+
+/*.MenuToggle span:before {*/
+/*    content: '';*/
+/*    top: 0;*/
+/*    transform: rotate(90deg);*/
+/*    transition: transform 0.7s;*/
+/*}*/
+
+.MenuToggle.open{
+    left: 320px;
+}
+
+/*.MenuToggle.open span:before{*/
+/*    content: '';*/
+/*    transform: rotate(130deg);*/
+/*}*/
+
+/*.MenuToggle.open span:after{*/
+/*    content: '';*/
+/*    position: relative;*/
+/*    display: block;*/
+/*    height: 2px;*/
+/*    background-color: white;*/
+/*    transform: rotate(-130deg);*/
+/*}*/
